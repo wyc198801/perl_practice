@@ -5,7 +5,6 @@ use v5.14;
 my $file = 'words.txt';
 open (FH,'<',"$file") or die "can't open:$!";
 
-#check your words in the file
 print "check the word what you have:";
 my $want = <STDIN>;
 chomp($want);
